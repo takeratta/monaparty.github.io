@@ -20,19 +20,31 @@ https://xcpwallet.monaparty.me/ または Counterparty 公式の Counterwallet �
 
 MONAPARTY トークンを保持しているビットコインアドレスの項目の右端にあるプルダウンメニューを選択し「Feed Broadcast」を選択してください。
 
+ ![Feed Broadcast を選択](select-feed-broadcast.png)
+ 
 ダイアログボックスが表示されますので、Text の項目に上記でメモした Monacoin アドレスを入力してください。
 その他の項目は特に変更する必要はありません。「Broardcast」ボタンを押してください。
+
+![Broadcast ダイアログ](broadcast-dialog.png)
+
+この操作で MONAPARTY トークンの保持者が指定する XMP トークンの送信先が Counterparty のチェーン(つまり Bitcoin のブロックチェーン)に記録されます。このブロードキャストを起点として、トークンスワップの履行は、世界中の誰でも検証可能となります。
 
 ### ブロードキャストが完了したことを確認する。
 
 ブロードキャストが完了したことは Counterwallet の History メニューを選択することで確認できます。
 
+![Historyで確認](history.png)
+
 ## MONAPARTY トークンを burn する
 
-MONAPARTY を Bitcoin アドレス「1MonapartyMMMMMMMMMMMMMMMMMQ3QJNm」へ送金してください。
+ブロードキャストの完了を確認できましたら、MONAPARTY を Bitcoin アドレス「1MonapartyMMMMMMMMMMMMMMMMMQ3QJNm」へ送金してください。
 このアドレスへ送金された MONAPARTY トークンは誰も取り出せません。
 
 ## トークン配布を待つ
 
-今回のトークンスワップは手動となりますので、少しお時間を頂くかもしれませんが、上記 Monacoin アドレスに XMP トークンが配布されます。
+今回のトークンスワップは手動となりますので、少しお時間を頂くかもしれませんが、上記ブロードキャストで指定された Monacoin アドレスに XMP トークンが配布されます。
 2週間待っても配布が確認できない場合にはお手数ですが admin@monaparty.me または Twitter @MonapartyXMP への mention 等でお知らせください。
+
+## お困りでしたら
+
+上記説明に解りづらい箇所がある、お手持ちのウォレットがブロードキャストに非対応である、等々お困りのことがありましたら、 Twitter @MonapartyXMP への mention でお知らせください。
